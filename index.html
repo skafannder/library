@@ -1,0 +1,43 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="title_bar">
+            <h1>Zub's bookstore</h1>
+        </div>
+        <div id="add_book_button"><button id="open_button">Add a book</button></div>
+        <div id="add_book_form">
+            <input type="text" name="title" id="title" required="" placeholder="Title">
+            <input type="text" name="author" id="author" required="" placeholder="Author">
+            <input type="number" name="pages" id="pages" required="" min="0" placeholder="N.o. pages">
+            <select id="status" required="">
+                <option value=no>Unread</option>
+                <option value=yes>Read</option>
+            </select>
+            <div class="button_padding">
+                <button id="add_book">Add</button>
+                <button id="cancel_book">Cancel</button>
+            </div>
+        </div>
+        <div id="books_table">
+            <table id="library">
+                <thead>
+                    <tr id="book_header">
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th style="width: 90px;">Pages</th>
+                        <th style="width: 90px;">Have read</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>

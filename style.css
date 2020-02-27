@@ -1,0 +1,31 @@
+body {
+    background: #555;
+}
+
+#container {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background: white;
+}
+
+table#library {
+    width: 600px;
+    text-align: center;
+}
+
+#add_book_form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#add_book_button {
+    padding-bottom: 20px;
+}
+
+.button_padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
